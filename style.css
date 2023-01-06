@@ -157,3 +157,29 @@
     width: 350px;
     height: 300px;
 }
+
+.cetagory{
+    padding: 1px 12% 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cetagorys{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.5rem;
+}
+
+.cetagory-img img{
+    width: 550px;
+    height: 450px;
+} 
+
+.cetagory-header{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.3;
+}
