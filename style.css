@@ -203,7 +203,7 @@ header{
 
 .footer-btn{
     background: rgb(255, 238, 176);
-    padding: 70px 70px;
+    padding: 4.4rem 70rem;
     display: flex;
     justify-content: center;
 }
@@ -264,7 +264,7 @@ header{
 }
 
 
-@media only screen and (max-width:690px){
+@media only screen and (max-width:688px){
     .hide{
         display: none;
     }
@@ -289,11 +289,16 @@ header{
 
     }
     .contract-me input{
-        padding: 0.3rem;
+        padding-right: 0.1rem;
+        padding-left: 0.1rem;
     }
     .footer-btn{
         padding: 0 10px;
         justify-content: start;
         background: none;
     }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px){
+    
 }
